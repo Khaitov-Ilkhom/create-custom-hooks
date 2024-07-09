@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: rgba(183, 181, 181, 0.66);
+    margin: 40px 0 0 0;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 1px 0, rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 48px;
+}
+.single-img img {
+    width: 450px;
+    border-radius: 30px;
+}
+.single-body {
+    max-width: 600px;
+    width: 100%;
+}
+.p {
+    margin: 15px 0;
+}
+.single-body h2 {
+    font-size: 32px;
+}
+.single-body p {
+    font-size: 22px;
+}
+.prices span {
+    font-size: 22px;
+}
+.single-desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+}
