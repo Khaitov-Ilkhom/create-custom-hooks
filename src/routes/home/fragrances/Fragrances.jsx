@@ -8,9 +8,6 @@ const Fragrances = () => {
 
     const [data, loading] = useFetch(`/products/category${path.pathname}`)
 
-    console.log(path.pathname, "location")
-    console.log(data.products)
-
     return (
         <div className="cards">
             {

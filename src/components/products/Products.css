@@ -18,6 +18,7 @@
 }
 .card-img img {
     width: 100%;
+    min-height: 280px;
     object-fit: contain;
     transition: 0.3s;
     border-radius: 20px;
